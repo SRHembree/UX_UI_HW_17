@@ -1,25 +1,34 @@
-div img {
-    width: 100px;    
-    height: 80px;
-}
-li {
-    float: right;
-}
-li a {
+/* Nav Styles */
+.inline-block {
     display: inline-block;
-    color: white;
-    text-align: center;
-    height: 100px;
-    width: 300px;
-    margin: 0;
-    padding: 8px;
+    vertical-align: top;
 }
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding:0;
-    background-color: #3A7673;
+.inline-block-Logo {
+     padding: 1%;
+     width: 23%;
+     background-color: #0D1D21;
+     background-repeat: no-repeat;
+     background-position: left;
+     text-align: center;
 }
+.nav {
+    width: 73%;
+    padding: 1%;
+    background-color: #0D1D21;
+}
+.ul-inline-block {
+    width: 50%;
+    margin-left: auto;
+}
+/* Hero Image Styles */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+/* Footer Styles */
